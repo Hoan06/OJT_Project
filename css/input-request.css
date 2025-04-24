@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  width: 100%;
+  height: fit-content;
+  padding-top: 32px;
+  margin-bottom: 24px;
+}
+
+.header .list-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+
+.header .head-update {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.header .head-update p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  padding-bottom: 23px;
+}
+
+.head-update .btn-update {
+  padding-bottom: 23px;
+}
+
+.head-update .btn-cancel {
+  height: 40px;
+  width: 59px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.head-update .btn-save {
+  background-color: #039855;
+  color: white;
+  border: 1px solid transparent;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #07693d;
+}
+
+.diven {
+  border: 1px solid #D0D5DD;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.main {
+  display: flex;
+  padding: 24px;
+}
+
+.main .sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.main .main-content {
+  flex: 5;
+}
+
+.sidebar a {
+  color: #667085;
+  text-decoration: none;
+  height: 38px;
+  padding: 8px 0px 8px 12px;
+}
+
+.sidebar .block-link div {
+  border-radius: 50%;
+  background-color: #F2F4F7;
+  width: 24px;
+  height: 22px;
+  text-align: center;
+}
+
+.active {
+  color: #932F08;
+  background-color: #FFF1EB;
+  font-weight: 500;
+  width: 200px;
+  border-radius: 8px;
+  height: 36px;
+  padding: 8px 0px 8px 12px;
+}
+
+.sidebar .block-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #344054;
+}
+
+.sidebar .block-link-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #FFF1EB;
+  color: #932F08;
+  font-weight: 500;
+  width: 200px;
+  border-radius: 8px;
+  height: 36px;
+  padding: 8px 0px 8px 12px;
+}
+
+.sidebar .block-link-input a {
+  color: #932F08;
+}
+
+.main-content {
+  padding: 24px;
+}
+
+.main-content .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.main-content .head .head-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-content .head .head-left p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.main-content .head .head-left div {
+  width: 24px;
+  height: 22px;
+  background-color: #FFF1EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #932F08;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.main-content .head .btn-add img {
+  width: 20px;
+  height: 20px;
+}
+
+.head .btn-add {
+  width: 156px;
+  height: 36px;
+  color: #175CD3;
+  border-radius: 8px;
+  background-color: #EFF8FF;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #94a2ac;
+}
+
+.body .block-info {
+  display: flex;
+  border-bottom: 1px solid #D0D5DD;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.body .block-left {
+  flex: 1;
+}
+
+.body .block-left img {
+  width: 24px;
+  height: 24px;
+}
+
+.body .block-right {
+  flex: 30;
+}
+
+.body .block-right .input-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.body .block-right .input-info label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  margin-bottom: 6px;
+}
+
+.body .block-right .input-info input {
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  height: 44px;
+  padding-left: 14px;
+}
+
+.block-right .describe {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-right .describe label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  margin-bottom: 6px;
+}
+
+.block-right .describe textarea {
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  height: 164px;
+  padding: 14px;
+  margin-bottom: 24px;
+  resize: vertical;
+}
+
+.body .btn-delete {
+  background-color: #FEF3F2;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: #B42318;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #b3a7a5;
+}
+
+.body .btn-delete img {
+  width: 15px;
+  margin-right: 2px;
+}

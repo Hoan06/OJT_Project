@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/general-information.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="list-header">
+          <p style="display: flex; align-items: center; gap: 12px">
+            <img src="../assets/icons/home-icon.png" alt="" /> Danh sách khóa
+            học
+          </p>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <p>Thông tin khóa học</p>
+        </div>
+        <div class="head-update">
+          <p>Cập nhật thông tin khóa học</p>
+          <div class="btn-update">
+            <button class="btn-cancel">Hủy</button>
+            <button class="btn-save">Lưu cập nhật</button>
+          </div>
+        </div>
+        <div class="diven"></div>
+      </div>
+      <div class="main">
+        <div class="sidebar">
+          <a class="active" href="">Thông tin chung</a>
+          <div class="block-link">
+            <a href="">Chương trình học </a>
+            <div>5</div>
+          </div>
+          <div class="block-link">
+            <a href="">Yêu cầu đầu vào </a>
+            <div>3</div>
+          </div>
+          <div class="block-link">
+            <a href="">Học viên </a>
+            <div>25</div>
+          </div>
+          <a href="">Lịch học</a>
+          <div class="block-link">
+            <a href="">Lịch thi </a>
+            <div>2</div>
+          </div>
+        </div>
+        <div class="main-content">
+          <p class="title">Thông tin chung</p>
+          <img src="../assets/images/img-info-e-learning.png" alt="" />
+          <div class="block-info-name">
+            <label for="">Tên khóa học</label>
+            <input type="text" />
+          </div>
+          <div class="block-info">
+            <div class="info-son">
+              <label for="">Ngày khai giảng</label>
+              <input type="date" />
+            </div>
+            <div class="info-son">
+              <label for="">Ngày kết thúc</label>
+              <input type="date" />
+            </div>
+          </div>
+          <div class="block-info">
+            <div class="info-son">
+              <label for="">Số giờ học</label>
+              <input type="text" />
+            </div>
+            <div class="info-son">
+              <label for="">Sĩ số</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="block-info">
+            <div class="info-son">
+              <label for="">Đối tượng học</label>
+              <select class="select-info" name="" id="">
+                <option value="">Mới bắt đầu</option>
+              </select>
+            </div>
+            <div class="info-son">
+              <label for="">Trung tâm</label>
+              <select class="select-info" name="" id="">
+                <option value="">Rikkei Academy</option>
+              </select>
+            </div>
+          </div>
+          <div class="info-job">
+            <label for="">Ngành nghề</label>
+            <select name="" id="">
+              <option value="">Công nghệ thông tin</option>
+            </select>
+          </div>
+          <div class="info-describe">
+            <label for="">Mô tả khóa học</label>
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lịch học</title>
+    <link rel="stylesheet" href="../css/schedule-table.css" />
+    <!-- THÊM FONT AWESOME ĐỂ HIỂN THỊ ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="list-header">
+          <p style="display: flex; align-items: center; gap: 12px">
+            <img src="../assets/icons/home-icon.png" alt="" /> Danh sách khóa
+            học
+          </p>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <p>Thông tin khóa học</p>
+        </div>
+        <div class="head-update">
+          <p>Cập nhật thông tin khóa học</p>
+          <div class="btn-update">
+            <button class="btn-cancel">Hủy</button>
+            <button class="btn-save">Lưu cập nhật</button>
+          </div>
+        </div>
+        <div class="diven"></div>
+      </div>
+      <div class="main">
+        <div class="sidebar">
+          <a href="">Thông tin chung</a>
+          <div class="block-link">
+            <a href="">Chương trình học </a>
+            <div>5</div>
+          </div>
+          <div class="block-link">
+            <a href="">Yêu cầu đầu vào </a>
+            <div>3</div>
+          </div>
+          <div class="block-link">
+            <a href="">Học viên </a>
+            <div>25</div>
+          </div>
+          <a class="active" href="" style="color: #932f08">Lịch học</a>
+          <div class="block-link">
+            <a href="">Lịch thi </a>
+            <div>2</div>
+          </div>
+        </div>
+        <div class="content-main">
+          <div class="header-table-container">
+            <div>
+              <p class="header-table-container-left">Lịch học</p>
+            </div>
+            <div class="header-table-container-right">
+              <button class="btn-header">
+                <img class="cloud" src="../assets/icons/download.png" alt="" />
+                <p>Tải danh sách excel</p>
+              </button>
+              <button class="add-studen">+ Thêm học viên</button>
+            </div>
+          </div>
+          <div class="info-table">
+            <div class="week-now">Tuần này</div>
+            <div class="full">Toàn bộ</div>
+          </div>
+          <table id="lich-hoc">
+            <thead>
+              <tr>
+                <th>Lịch học</th>
+                <th>Thời gian</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>27/02/2025</td>
+                <td>09:00, Thứ hai, 27/02/2025</td>
+                <td>
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-edit"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>01/03/2025</td>
+                <td>09:00, Thứ sáu, 01/03/2025</td>
+                <td>
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-edit"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Thêm lịch học -->
+    <div id="scheduleModal" class="modal-overlay">
+      <div class="modal">
+        <div class="modal-header">
+          <h3>Thêm lịch học</h3>
+          <button class="close-btn">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-row">
+            <div class="modal-field">
+              <label>Loại</label>
+              <select>
+                <option>Lịch học</option>
+              </select>
+            </div>
+            <div class="modal-field">
+              <label>Lặp lại</label>
+              <select>
+                <option>Cùng ngày, giờ hằng tuần</option>
+              </select>
+            </div>
+          </div>
+          <div class="modal-row">
+            <div class="modal-field">
+              <label>Giờ bắt đầu</label>
+              <input type="text" placeholder="09:00-11:00" />
+            </div>
+            <div class="modal-field">
+              <label>Ngày</label>
+              <input type="text" placeholder="Thứ hai, 23/02/2025" />
+            </div>
+          </div>
+        </div>
+        <div class="diven-form"></div>
+        <div class="modal-footer">
+          <button class="btn-cancel">Hủy</button>
+          <button class="btn-add">Thêm lịch học</button>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

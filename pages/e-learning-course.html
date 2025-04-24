@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết khóa học</title>
+    <link rel="stylesheet" href="../css/e-learning-course.css" />
+    <link
+      href="https://unpkg.com/ionicons@7.1.0/dist/ionicons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar bên trái -->
+      <div class="sidebar">
+        <div class="sidebar-top">
+          <img
+            src="../assets/images/logoPhenika-block-left.png"
+            alt="Logo"
+            class="logo"
+          />
+          <div class="search-bar">
+            <img
+              src="../assets/icons/search.png"
+              alt="Search"
+              class="search-icon"
+            />
+            <input type="text" placeholder="Tìm kiếm" />
+          </div>
+          <ul class="menu">
+            <li>
+              <img src="../assets/icons/users-account.png" alt="" />Tài khoản
+            </li>
+            <li><img src="../assets/icons/hand-icon.png" alt="" /> Đối tác</li>
+            <li class="active">
+              <ion-icon name="play-circle-outline"></ion-icon>Khóa học
+              (E-learning)
+            </li>
+            <li>
+              <img src="../assets/icons/class-icon.png" alt="" /> Lớp học
+              offline
+            </li>
+            <li><img src="../assets/icons/Exam-icon.png" alt="" /> Kỳ thi</li>
+            <li>
+              <img src="../assets/icons/certificate-icon.png" alt="" /> Chứng
+              chỉ
+            </li>
+            <li>
+              <img src="../assets/icons/report-icon.png" alt="" /> Báo cáo tài
+              chính
+            </li>
+            <li>
+              <img src="../assets/icons/Buildings-icon.png" alt="" /> Cơ sở hạ
+              tầng
+            </li>
+            <li>
+              <img src="../assets/icons/news-icon.png" alt="" /> Tin tức, thông
+              báo
+            </li>
+            <li><ion-icon name="settings-outline"></ion-icon> Cấu hình</li>
+          </ul>
+        </div>
+        <div class="sidebar-bottom">
+          <img
+            src="../assets/images/Avatar.png"
+            alt="Logout"
+            class="logout-icon"
+          />
+          <div class="user-info">
+            <div class="user-details">
+              <p class="user-name">Trần Hữu Nam</p>
+              <img src="../assets/icons/Icon-out.png" alt="" />
+            </div>
+            <p class="user-email">namtran94@phenikaa.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phần nội dung chính -->
+      <div class="main-content">
+        <!-- Breadcrumb và tiêu đề -->
+        <div class="breadcrumb">
+          <img src="../assets/icons/home-icon.png" alt="Home" />
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <span class="breadcrumb-text">Danh sách khóa học</span>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+          <span class="breadcrumb-text">Nhập môn lập trình C++</span>
+        </div>
+        <div class="header">
+          <h1>Nhập môn lập trình C++</h1>
+          <div>
+            <button class="btn-copy">
+              <ion-icon name="copy-outline"></ion-icon> Nhân bản khóa học
+            </button>
+            <button class="btn-update">
+              <ion-icon name="create-outline"></ion-icon> Cập nhật thông tin
+            </button>
+          </div>
+        </div>
+        <!-- Số lượng người dùng -->
+        <div class="list-account">
+          <div class="box-list-active">
+            <p>Thông tin chung</p>
+          </div>
+          <div class="box-list">
+            <p>Chương trình học</p>
+          </div>
+          <div class="box-list">
+            <p>Yêu cầu đầu vào</p>
+          </div>
+          <div class="box-list">
+            <p>Học viên</p>
+            <p class="number-user">2</p>
+          </div>
+          <div class="box-list">
+            <p>Lịch thi</p>
+          </div>
+        </div>
+        <!-- Thông tin chung -->
+        <section class="general-info">
+          <p class="title">Thông tin chung</p>
+          <div class="block-info">
+            <div class="block-info-son">
+              <label for="">Mã khóa học</label>
+              <p>KH002341</p>
+            </div>
+            <div class="block-info-son">
+              <label for="">Hình thức học</label>
+              <p>Offine</p>
+            </div>
+          </div>
+          <div class="block-info">
+            <div class="block-info-son">
+              <label for="">Ngày khai giảng</label>
+              <p>12//11/2025</p>
+            </div>
+            <div class="block-info-son">
+              <label for="">Ngày kết thúc</label>
+              <p>31/1/2026</p>
+            </div>
+          </div>
+          <div class="block-info">
+            <div class="block-info-son">
+              <label for="">Số buổi học</label>
+              <p>30</p>
+            </div>
+            <div class="block-info-son">
+              <label for="">Số giờ/buổi</label>
+              <p>3</p>
+            </div>
+          </div>
+          <div class="block-info">
+            <div class="block-info-son">
+              <label for="">Sĩ số</label>
+              <p>30</p>
+            </div>
+            <div class="block-info-son">
+              <label for="">Trung tâm</label>
+              <p>Rikkei Academy</p>
+            </div>
+          </div>
+          <div class="block-info">
+            <div class="block-info-son">
+              <label for="">Đối tượng học</label>
+              <p>Mới bắt đầu</p>
+            </div>
+            <div class="block-info-son">
+              <label for="">Ngành học</label>
+              <p>Công nghệ thông tin</p>
+            </div>
+          </div>
+          <div class="describe">
+            <label for="">Mô tả khóa học</label>
+            <p>
+              Chương trình Đào tạo Kỹ sư Công nghệ thông tin là sự kết hợp giữa
+              nhà trường và doanh nghiệp, giữa nền tảng chuyên môn và thực tế
+              thị trường. Từ đó, giúp sinh viên vững vàng về kiến thức, nắm bắt
+              xu hướng, trở thành thế hệ tân kỹ sư Công nghệ thông tin trong
+              thời đại số.
+            </p>
+          </div>
+        </section>
+        <section class="study-program">
+          <p class="title-program">Chương trình học</p>
+          <div class="block-program">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Kiến thức chuyên nghành</p>
+              <p class="paragraph">
+                Các kiến thức nền tảng, nguyên lý cơ bản của thuật toán và giải
+                thuật nhằm xây dựng tư duy phân tích, giải quyết và triển khai
+                vấn đề <br />
+                Các ngôn ngữ lập trình: Java, JavaScript, Python và các thư
+                viện, công cụ hỗ trợ nhằm xây dựng, phát triển các ứng dụng và
+                hệ thống phần mềm <br />
+                Các kiến thức về cơ sở dữ liệu và SQL nhằm truy vấn, thao tác và
+                quản lý dữ liệu <br />
+                Các kiến thức về hệ điều hành và mạng máy tính nhằm quản lý hoạt
+                động máy tính và các tài nguyên.
+              </p>
+            </div>
+          </div>
+          <div class="block-program">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Kiến thức đại cương</p>
+              <p class="paragraph">
+                Các kiến thức về Toán học – nền tảng cho ngành đào tạo <br />
+                Các kiến thức đại cương về Triết học, Lý luận của Chủ nghĩa Mác
+                Lenin và Tư tưởng Hồ Chí Minh
+              </p>
+            </div>
+          </div>
+          <div class="block-program">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Kỹ năng chuyên môn</p>
+              <p class="paragraph">
+                Sau khi hoàn thành chương trình học, bạn sẽ nắm vững các kỹ năng
+                liên quan đến lập trình Front-end và Back-end: <br />
+                <br />
+                Lập trình web và phát triển ứng dụng web <br />
+                Thiết kế giao diện người dùng và trải nghiệm người dùng <br />
+                Phát triển ứng dụng di động trên các nền tảng như iOS và Android
+                <br />
+                Bảo mật thông tin và an ninh mạng <br />
+                Kỹ thuật liên quan đến trí tuệ nhân tạo và máy học (Machine
+                Learning)
+              </p>
+            </div>
+          </div>
+          <div class="block-program">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Kỹ năng mềm</p>
+              <p class="paragraph">
+                Tại mỗi kỳ học, bạn sẽ có các học phần liên quan đến các kỹ năng
+                mềm để có thể làm việc cá nhân và đội nhóm hiệu quả. Một số kỹ
+                năng mềm như: <br />
+                <br />
+                Tư duy lập trình <br />
+                Kỹ năng giải quyết vấn đề <br />
+                Kỹ năng thuyết trình <br />
+                Kỹ năng quản lý thời gian và lập kế hoạch <br />
+                Kỹ năng tìm kiếm thông tin hiệu quả <br />
+                Kỹ năng viết CV và phỏng vấn…
+              </p>
+            </div>
+          </div>
+          <div class="block-program">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Ngoại ngữ</p>
+              <p class="paragraph">
+                Bạn sẽ được học Tiếng Anh giao tiếp xuyên suốt quá trình học
+                nhằm nâng cao khả năng sử dụng, phục vụ học tập, nghiên cứu và
+                giao tiếp với cộng đồng công nghệ trong khu vực và quốc tế
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="input-reques">
+          <p class="title-reques">Yêu cầu đầu vào</p>
+          <div class="block-reques">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Đối tượng tuyển sinh</p>
+              <p class="paragraph">
+                Từ 18 tuổi trở lên <br />
+                Học sinh vừa tốt nghiệp THPT <br />
+                Sinh viên các trường Cao đẳng, Đại học <br />
+                Người đã có bằng Đại học, Cao đẳng, Trung cấp,… <br />
+                Cán bộ công chức, người đang làm việc trong cơ quan, tổ chức,
+                doanh nghiệp nhà nước, tư nhân,…đã có bằng THPT hoặc tương đương
+                trở lên
+              </p>
+            </div>
+          </div>
+          <div class="block-reques">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Hồ sơ xét tuyển</p>
+              <p class="paragraph">
+                01 Phiếu đăng ký tuyển sinh (theo mẫu của Rikkei Academy) <br />
+                02 Bản photo bằng tốt nghiệp THPT hoặc giấy chứng nhận tốt
+                nghiệp THPT tạm thời <br />
+                02 Bản sao hợp lệ Học bạ THPT <br />
+                02 Bản photo Giấy khai sinh
+              </p>
+            </div>
+          </div>
+          <div class="block-reques">
+            <div class="left">
+              <img src="../assets/icons/Icon-wrap.png" alt="" />
+            </div>
+            <div class="right">
+              <p class="title-right">Phương thức xét tuyển</p>
+              <p class="paragraph">
+                Xét điểm trung bình học bạ THPT. <br />
+                Xét điểm tổ hợp 3 môn thi THPT Quốc gia.
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="table-container">
+          <div class="header-table-container">
+            <div>
+              <p class="header-table-container-left">
+                Học viên <span class="number-studen">18</span>
+              </p>
+            </div>
+            <div class="header-table-container-right">
+              <button class="btn-header">
+                <img class="cloud" src="../assets/icons/download.png" alt="" />
+                <p>Tải danh sách excel</p>
+              </button>
+              <button class="add-studen">+ Thêm học viên</button>
+            </div>
+          </div>
+          <table class="user-table">
+            <thead>
+              <tr>
+                <th class="header-table"><input type="checkbox" /></th>
+                <th class="header-table">Mã học viên</th>
+                <th class="header-table">Tên học viên</th>
+                <th class="header-table">Email</th>
+                <th class="header-table"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td class="td-name">
+                  <img
+                    class="avatar-students"
+                    src="../assets/images/Avatar-students.png"
+                    alt=""
+                  />
+                  Nguyễn Băng Qua
+                </td>
+                <td>haidung@gmail.com</td>
+                <td class="actions">
+                  <img
+                    src="../assets/icons/trash-icon.png"
+                    alt="Xoá"
+                    title="Xoá"
+                  />
+                  <img src="../assets/icons/pen.png" alt="Sửa" title="Sửa" />
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td class="td-name">
+                  <img
+                    class="avatar-students"
+                    src="../assets/images/Avatar-students.png"
+                    alt=""
+                  />
+                  Nguyễn Băng Qua
+                </td>
+                <td>haidung@gmail.com</td>
+                <td class="actions">
+                  <img
+                    src="../assets/icons/trash-icon.png"
+                    alt="Xoá"
+                    title="Xoá"
+                  />
+                  <img src="../assets/icons/pen.png" alt="Sửa" title="Sửa" />
+                </td>
+              </tr>
+
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td class="td-name">
+                  <img
+                    class="avatar-students"
+                    src="../assets/images/Avatar-students.png"
+                    alt=""
+                  />
+                  Nguyễn Băng Qua
+                </td>
+                <td>haidung@gmail.com</td>
+                <td class="actions">
+                  <img
+                    src="../assets/icons/trash-icon.png"
+                    alt="Xoá"
+                    title="Xoá"
+                  />
+                  <img src="../assets/icons/pen.png" alt="Sửa" title="Sửa" />
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td class="td-name">
+                  <img
+                    class="avatar-students"
+                    src="../assets/images/Avatar-students.png"
+                    alt=""
+                  />
+                  Nguyễn Băng Qua
+                </td>
+                <td>haidung@gmail.com</td>
+                <td class="actions">
+                  <img
+                    src="../assets/icons/trash-icon.png"
+                    alt="Xoá"
+                    title="Xoá"
+                  />
+                  <img src="../assets/icons/pen.png" alt="Sửa" title="Sửa" />
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td class="td-name">
+                  <img
+                    class="avatar-students"
+                    src="../assets/images/Avatar-students.png"
+                    alt=""
+                  />
+                  Nguyễn Băng Qua
+                </td>
+                <td>haidung@gmail.com</td>
+                <td class="actions">
+                  <img
+                    src="../assets/icons/trash-icon.png"
+                    alt="Xoá"
+                    title="Xoá"
+                  />
+                  <img src="../assets/icons/pen.png" alt="Sửa" title="Sửa" />
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td class="td-name">
+                  <img
+                    class="avatar-students"
+                    src="../assets/images/Avatar-students.png"
+                    alt=""
+                  />
+                  Nguyễn Băng Qua
+                </td>
+                <td>haidung@gmail.com</td>
+                <td class="actions">
+                  <img
+                    src="../assets/icons/trash-icon.png"
+                    alt="Xoá"
+                    title="Xoá"
+                  />
+                  <img src="../assets/icons/pen.png" alt="Sửa" title="Sửa" />
+                </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>TK002341</td>
+                <td class="td-name">
+                  <img
+                    class="avatar-students"
+                    src="../assets/images/Avatar-students.png"
+                    alt=""
+                  />
+                  Nguyễn Băng Qua
+                </td>
+                <td>haidung@gmail.com</td>
+                <td class="actions">
+                  <img
+                    src="../assets/icons/trash-icon.png"
+                    alt="Xoá"
+                    title="Xoá"
+                  />
+                  <img src="../assets/icons/pen.png" alt="Sửa" title="Sửa" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- PHÂN TRANG -->
+          <div class="pagination">
+            <button class="page-btn prev" disabled>
+              <ion-icon name="chevron-back-outline"></ion-icon> Trang trước
+            </button>
+            <span class="page-info">Trang 1 trong 2</span>
+            <button class="page-btn next">
+              Trang sau <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+        <section class="block-exam">
+          <p class="title-exam">Lịch thi</p>
+          <div class="block-info">
+            <div class="block-info-detail">
+              <div class="detail-left">
+                <img src="../assets/icons/calendar-exam.png" alt="" />
+              </div>
+              <div class="detail-right">
+                <p class="date">12/12/2025</p>
+                <div class="exam">
+                  <p>Thi giữa kỳ</p>
+                  <img src="../assets/icons/external-link.png" alt="" />
+                </div>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+              </div>
+            </div>
+            <div class="block-info-detail">
+              <div class="detail-left-finish">
+                <img src="../assets/icons/Calendar-exam-finish.png" alt="" />
+              </div>
+              <div class="detail-right">
+                <p class="date">12/12/2025</p>
+                <div class="exam">
+                  <p>Thi cuối kỳ</p>
+                  <img src="../assets/icons/external-link.png" alt="" />
+                </div>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

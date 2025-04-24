@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.logo-university {
+    width: 143px;
+    height: 32px;
+  }
+  .body-container {
+    display: flex;
+  }
+  .body-left {
+    width: 279px;
+    padding: 24px;
+    height: calc(100vh - 36px);
+    border-right: 2px solid #e4e7ec;
+  }
+  .list-link {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+  }
+  .nav {
+    width: 279px;
+    height: 910px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .body-top-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+  }
+  .body-name-email {
+    width: 235px;
+    height: 40px;
+    border-top: 1px solid #e4e7ec;
+  }
+  .name-out {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .body-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 10px;
+  }
+  .icon-search {
+    position: relative;
+    left: 34px;
+  }
+  .iput-search {
+    padding-left: 34px;
+    width: 231px;
+    height: 44px;
+    border-radius: 8px;
+    border: 2px solid #cac2c2;
+  }
+  .icon {
+    color: #344054;
+    width: 24px;
+    height: 24px;
+  }
+  #icon-account {
+    color: #344054;
+  }
+  .body-bottom-nav{
+      padding-bottom: 24px ;
+  }
+  /* Css của home bên phải */
+  .body-right {
+    padding: 32px;
+    width: 100%;
+  }
+  
+  .title-body {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header-title {
+    display: flex;
+    gap: 12px;
+  }
+
+  .header-title-son{
+    color: #932F08;
+  }
+
+  .title {
+    width: 291px;
+    height: 40px;
+    padding-top: 16px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0%;
+  }
+  .excel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 2px solid #c7c2c2;
+  }
+  .select {
+    width: 138px;
+    height: 40px;
+    gap: 8px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+  }
+  .btn-add-account{
+      width: 164px;
+  height: 40px;
+  border-radius: 8px;
+  width: 164;
+  height: 40;
+  gap: 8px;
+  padding: 10px 16px;
+  border-width: 1px;
+  background-color: #B54115;
+  border: 1px solid transparent;
+  color: #ffff;
+  cursor: pointer;
+  }
+
+  .btn-add-account:hover {
+    background-color: #7a2d0e;
+  }
+
+  .list-account{
+      padding-top: 24px;
+      display: flex;
+      gap: 36px;
+      padding-bottom: 20px;
+  }
+  .box-list {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  }
+
+  .box-list-active {
+    display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #FFF1EB;
+      color: #932F08;
+      border-radius: 6px;
+      padding-left: 12px;
+  }
+
+  .number-user{
+  width: 48px;
+  height: 32px;
+  font-size: 16px;
+  padding: 8px 2px;
+  border-radius: 16px;
+  background-color: #F2F4F7;
+  text-align: center;
+  }
+
+  .number-user-active{
+    width: 48px;
+    height: 32px;
+    font-size: 16px;
+    padding: 8px 2px;
+    border-radius: 16px;
+    background-color: #FFF1EB;
+    text-align: center;
+    }
+
+  /* lọc và tìm kiếm */
+  .filter-search {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .filter {
+      display: flex;
+      border: 1px solid #D0D5DD;
+      border-radius: 6px;
+      padding: 10px;
+      gap: 12px;
+  }
+  .search-user {
+      display: flex;
+      align-items: center;
+      position: relative;
+      right: 10px;
+  }
+
+.table {
+    border: 1px solid #E4E7EC;
+    width: 100%;
+    margin-top: 17px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-collapse: collapse;
+}
+
+.table tr {
+    border-bottom: 1px solid #E4E7EC;
+}
+
+.table .row-header {
+    height: 44px;
+}
+
+.table .row {
+    height: 72px;
+}
+
+.table th {
+    color: #667085;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table .act {
+    display: flex;
+    justify-content: space-evenly;  
+    margin-top: 16px;
+    margin-bottom: 17px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.table .act img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer-table {
+    background-color: #f9fafb; /* Giữ màu nền nếu cần */
+}
+
+.td-footer-table {
+    text-align: center; /* Căn giữa nội dung trong td */
+    width: 100%; /* Đảm bảo td chiếm toàn bộ chiều rộng */
+    padding: 10px 0; /* Thêm padding để nội dung không sát mép */
+    height: 63px;
+}
+
+/* Áp dụng flex cho div bao quanh các span */
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Đẩy Trang trước sang trái, Trang sau sang phải */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 100%; /* Đảm bảo div chiếm toàn bộ chiều rộng của td */
+}
+
+/* Định dạng các span */
+.footer-content span {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Khoảng cách nhỏ với mép trái và phải */
+.footer-content span:first-child {
+    margin-left: 15px;
+}
+
+.footer-content span:last-child {
+    margin-right: 15px;
+}
+
+.btn-back {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.btn-next {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.overlay {
+  width: 1078px;
+  height: fit-content;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  position: absolute;
+  background-color: white;
+  top: 5%;
+  left: 25%;
+}
+
+.overlay .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  margin-bottom: 20px;
+}
+
+.overlay .main {
+  display: flex;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 20px;
+  border-bottom: 1px solid #D0D5DD;
+  padding-bottom: 128px;
+  border-radius: 8px;
+}
+
+.overlay .block-left-overlay {
+  flex: 1;
+}
+
+.overlay .block-right-overlay {
+  flex: 3;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  padding: 24px;
+}
+
+.overlay .block-input {
+  display: flex;
+} 
+
+.overlay .block-input-son {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  gap: 6px;
+}
+
+.overlay .block-input-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay .header .title {
+  font-weight: 500;
+  font-size: 30px;
+  height: 44px;
+  color: #101828;
+  display: flex;
+  align-items: center;
+  padding-bottom: 6px;
+}
+
+.overlay .header .icon-close-overlay {
+  background-color: #F2F4F7;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.overlay .block-left-overlay .title-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+.overlay .block-left-overlay .update-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.upload-icon {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.upload-container p span {
+  margin: 0;
+  font-size: 14px;
+  color: #e74c3c; /* Màu đỏ cho text */
+  text-align: center;
+  line-height: 1.5;
+}
+
+.overlay .block-input-son label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+.overlay .block-input-name label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+.overlay .block-input-name input {
+  width: 100%;
+  height: 44px;
+  padding-left: 14px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+}
+
+.overlay .block-input-son .date {
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  color: #D0D5DD;
+  height: 44px;
+  width: 315px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.overlay .block-input-son .input-number-class {
+  height: 44px;
+  width: 315px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  padding-left: 14px;
+}
+
+.overlay .block-input-son .size-class {
+  border: 1px solid #D0D5DD;
+  height: 44px;
+  width: 315px;
+  border-radius: 8px;
+  padding-left: 14px;
+}
+
+.overlay .block-input-son .select-class {
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  padding-left: 14px;
+  width: 315px;
+}
+
+.overlay .block-input-son .select-job {
+  height: 44px;
+  width: 315px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  padding-left: 14px;
+}
+
+.overlay .block-input-son .input-describe {
+  height: 102px;
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  padding-left: 14px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.footer-form {
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 12px;
+  padding-right: 24px;
+}
+
+.footer-form .btn-cancel {
+  height: 40px;
+  width: 59px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  background-color: white;
+}
+
+.footer-form .btn-add {
+  height: 40px;
+  width: 122px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #B54115;
+}
+
+
+/* CSS cho backdrop */
+/* CSS cho backdrop */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Màu đen với opacity 0.5 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Đảm bảo backdrop ở trên các phần tử khác */
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Khi backdrop được kích hoạt */
+.backdrop.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* CSS cho overlay */
+.overlay {
+  width: 1078px;
+  max-height: 90vh; /* Giới hạn chiều cao để không bị tràn màn hình */
+  overflow-y: auto; /* Thêm thanh cuộn nếu nội dung vượt quá */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  background-color: white;
+  position: relative; /* Đổi từ absolute sang relative để căn giữa trong backdrop */
+  z-index: 1001; /* Đảm bảo overlay ở trên backdrop */
+  top: 1%;
+  left: 1%;
+}
+
+/* Đảm bảo nội dung trong overlay không bị tràn */
+.overlay .main {
+  display: flex;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 20px;
+  border-bottom: 1px solid #D0D5DD;
+  padding-bottom: 20px; /* Giảm padding-bottom để tránh tràn */
+  border-radius: 8px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #344054;
+}
